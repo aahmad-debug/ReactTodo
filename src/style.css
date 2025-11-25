@@ -6,6 +6,7 @@
   font-family: "Poppins", sans-serif;
 }
 
+/* ========== Theme Colors ========== */
 :root {
   --dark-bg: hsl(235, 21%, 11%);
   --dark-card: hsl(235, 24%, 19%);
@@ -22,6 +23,8 @@
   --blue: hsl(220, 98%, 61%);
 }
 
+/* ========== Body ========== */
+
 body {
   background-color: var(--dark-bg);
   color: var(--dark-text);
@@ -29,7 +32,7 @@ body {
   transition: 0.3s;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: center; /* ✔ توسيط أفقي */
 }
 
 body.light {
@@ -80,6 +83,8 @@ body.light .background {
   width: 32px;
   cursor: pointer;
 }
+
+/* ========== Todo Box ========== */
 
 .todo-box {
   background-color: var(--dark-card);
